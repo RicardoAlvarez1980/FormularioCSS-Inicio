@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furmulario CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+   <section>
+    <form class="form1" action="">
+        <h2>Formulario Inicio Sesión:</h2>
+        <div>
+            <label for="">Usuario</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Password</label>
+            <input type="password"><br><br>
+        </div>
+        <div id="check">
+            <label for="enviar"></label>
+            <input type="submit" value="Iniciar Sesión">
+            <input type="checkbox" name="opcion" id="check">
+            <h5>Olvide la contraseña</h5>
+        </div>
+    </form>
+   </section>
+
+   <aside>
+    <form class="form2" action="">
+        <h2>Formulario de Registro:</h2>
+        <div>
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Apellido</label>
+            <input type="text">
+            <label for="">Domicilio</label>
+            <input type="text">
+            <label for="">Telefono</label>
+            <input type="tel" pattern="[0-9]{10}" placeholder="ej. 1145544585" title="Solo Números." required>
+            <label for="">Nivel de Estudios</label>
+            <select name="combo">
+                <!-- Opciones de la lista -->
+                <option value="1">Secundario Incompleto</option>
+                <option value="2" selected>Secundario Completo</option> <!-- Opción por defecto -->
+                <option value="3">Terciario/Universitario Incompleto</option>
+                <option value="3">Terciario/Universitario Completo</option>
+            </select>
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date">
+            <div><br>
+                <input type="submit" value="Registrarse">
+                <input type="reset">
+            </div>
+        </div>
+    </form>
+    <form class="form3" action="">
+        <h2>Formulario Modificación de Perfil:</h2>
+        <div>
+            <h3>Cargar Foto</h3><br><br>
+            <input type="file" name="adjunto" accept=".jpg,.png" multiple /><br><br>
+        </div>
+        <div id="check">
+            <h3>En que te movilizas</h3><br>
+            <input type="checkbox" id="medio1" name="vehicle1" value="Bike">
+            <label for="medio1"> Voy en Bici</label><br>
+            <input type="checkbox" id="medio2" name="vehicle2" value="Car">
+            <label for="medio2"> Voy en Auto</label><br>
+            <input type="checkbox" id="medio3" name="vehicle3" value="Boat">
+            <label for="medio3"> Voy en Colectivo</label><br><br>
+
+            <h3>Lenguajes que conoces</h3><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="radio" id="php" name="fav_language" value="PHP">
+            <label for="php">PHP</label><br><br>
+            <div><br>
+                <input type="submit" value="Modificar">
+                <input type="reset">
+            </div>
+        </div>
+    </form>
+   </aside>
+    
+
+    
+</body>
+
+</html>

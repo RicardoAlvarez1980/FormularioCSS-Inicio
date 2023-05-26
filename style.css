@@ -1,0 +1,77 @@
+body{
+    display: inline;
+
+}
+h1{
+    background-color: rgb(226, 144, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    margin: 0em;
+}
+
+form label{
+font-size: 18px;
+font-weight: bolder;
+}
+
+section, aside{
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.form1{
+    position: relative;
+    box-shadow: 5px 5px 5px grey;
+    display: inline-block;
+    background-color: lightblue;
+    vertical-align:top;
+}
+
+.form2{
+    position: relative;
+    box-shadow: 5px 5px 5px grey;
+    display: inline-block;
+    background-color: lightgreen;
+    vertical-align:top;
+}
+
+.form3{
+    position: relative;
+    box-shadow: 5px 5px 5px grey;
+    display: inline-block;
+    background-color: yellow;
+    vertical-align:top;
+}
+
+
+div{
+    width: 300px;
+    text-align: left;
+}
+
+#check label{
+    display: inline-block;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px grey;
+    display: block;
+    text-align: left;
+}
+h3{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px grey;
+    text-align: left;
+}
